@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "UserMS",
+    "slug": "UserMS",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "cover",
+      "backgroundColor": "white"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#232f3a"
+      },
+      "package": "com.prasanthshan.client"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "66bc2089-7c47-4d2c-90fe-98d4029cc2e8"
+      }
+    }
+  }
+}
